@@ -113,13 +113,10 @@ return (
     <div className="App">
       <Header />
       <main>
-        
         <Customize  features={features}
                      
         />  
-          
-        
-         <Cart summary={summary}
+           <Cart summary={summary}
          total={total}
          /> 
        
