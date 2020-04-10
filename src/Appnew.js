@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import Header from './Header/Header';
 import Cart from './Cart/Cart';
 import Customize from './Customize/Customize';
+//import Option from './Option/Option'
 // Normalizes string as a slug - a string that is safe to use
 // in both URLs and html attributes
 import slugify from 'slugify';

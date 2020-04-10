@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import Option from '../Option/Option'
 
 
 class Customize extends Component{
@@ -9,7 +10,7 @@ render(){
           
             <h2>Customize your laptop</h2>
 
-{this.props.features}
+<Option features={this.props.features}/>
 
 
 </form>
