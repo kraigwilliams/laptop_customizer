@@ -9,7 +9,7 @@ return (
             
             <h2>Your cart</h2>
 
-            <Summary summary={this.props.summary} />
+            <Summary selected ={this.props.selected} summary={this.props.summary} />
              <Total total={this.props.total} /> 
            
           </section>
